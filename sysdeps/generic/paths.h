@@ -33,14 +33,14 @@
 #define	_PATHS_H_
 
 /* Default search path. */
-#define	_PATH_DEFPATH	"/usr/bin:/bin"
+#define	_PATH_DEFPATH	"/usr/bin"
 /* All standard utilities path. */
 #define	_PATH_STDPATH \
-	"/usr/bin:/bin:/usr/sbin:/sbin"
+	"/usr/bin:/usr/sbin"
 
-#define	_PATH_BSHELL	"/bin/sh"
+#define	_PATH_BSHELL	"/usr/bin/sh"
 #define	_PATH_CONSOLE	"/dev/console"
-#define	_PATH_CSHELL	"/bin/csh"
+#define	_PATH_CSHELL	"/usr/bin/csh"
 #define	_PATH_DEVDB	"/var/run/dev.db"
 #define	_PATH_DEVNULL	"/dev/null"
 #define	_PATH_DRUM	"/dev/drum"
