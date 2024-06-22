@@ -206,9 +206,8 @@ install-bin-script = ldd
 endif
 
 others		= sprof sln
-install-bin	= sprof
+install-bin	= sprof sln
 others-static   = sln
-install-rootsbin = sln
 sln-modules	:= static-stubs
 extra-objs	+= $(sln-modules:=.o)
 
@@ -216,7 +215,7 @@ ifeq (yes,$(use-ldconfig))
 ifeq (yes,$(build-shared))
 others-static	+= ldconfig
 others		+= ldconfig
-install-rootsbin += ldconfig
+install-bin     += ldconfig
 
 ldconfig-modules := \
   cache \

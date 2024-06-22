@@ -232,12 +232,12 @@ inst_libexecdir = $(install_root)$(libexecdir)
 
 # Where to install administrative programs.
 ifndef rootsbindir
-rootsbindir = $(exec_prefix)/sbin
+rootsbindir = $(exec_prefix)/bin
 endif
 inst_rootsbindir = $(install_root)$(rootsbindir)
 
 ifndef sbindir
-sbindir = $(exec_prefix)/sbin
+sbindir = $(exec_prefix)/bin
 endif
 inst_sbindir = $(install_root)$(sbindir)
 
