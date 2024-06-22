@@ -32,8 +32,7 @@ generated += tzselect
 testdata = $(objpfx)testdata
 
 ifeq ($(enable-timezone-tools),yes)
-install-sbin := zic
-install-bin := zdump
+install-bin := zdump zic
 install-bin-script = tzselect
 endif
 
