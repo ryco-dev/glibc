@@ -36,7 +36,7 @@
 #define	_PATH_DEFPATH	"/usr/bin"
 /* All standard utilities path. */
 #define	_PATH_STDPATH \
-	"/usr/bin:/usr/sbin"
+	"/usr/bin"
 
 #define	_PATH_BSHELL	"/usr/bin/sh"
 #define	_PATH_CONSOLE	"/dev/console"
@@ -56,7 +56,7 @@
 #define	_PATH_NOLOGIN	"/etc/nologin"
 #define	_PATH_PRESERVE	"/var/lib"
 #define	_PATH_RWHODIR	"/var/spool/rwho"
-#define	_PATH_SENDMAIL	"/usr/sbin/sendmail"
+#define	_PATH_SENDMAIL	"/usr/bin/sendmail"
 #define	_PATH_SHADOW	"/etc/shadow"
 #define	_PATH_SHELLS	"/etc/shells"
 #define	_PATH_TTY	"/dev/tty"
